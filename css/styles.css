@@ -36,6 +36,7 @@ textarea{
     font-family: sans-serif;
     font-size: 20px;
     color:#A4161A;
+    text-transform: lowercase;
 
 }
 i{
@@ -118,8 +119,8 @@ input{
     background-color: #A4161A;
     color: #F5F3F4;
     margin-top: 212px;
-    margin-left: 25px
-    
+    margin-left: 25px;
+    position: static;
 
 }
 .btn-copiar:hover{
