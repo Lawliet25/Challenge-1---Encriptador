@@ -10,7 +10,7 @@
     <link rel="stylesheet" href="http://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.4.0/css/font-awesome.min.css">
 </head>
 <header>
-    <img class="logo" src="./img/logo.png" alt="Logo de Alura">
+   <a href="https://www.aluracursos.com/"> <img class="logo" src="./img/logo.png" alt="Logo de Alura"></a>
 </header>
 <body>
     <main>
@@ -26,9 +26,10 @@
             <div class="botones">
                 <input class="btn-encriptar" type="button" value="Encriptar" onclick="encriptar()">
                 <input class="btn-desencriptar" type="button" value="Desencriptar" onclick="desencriptar()">
+                
             </div>
         </section>
-            
+        <input class="btn-copiar" type="button" value="Copiar" onclick="copiar()"> 
         <section class="seccion-two">
             <div id="msg">
                 <div class="muñeco-lupa">
@@ -36,11 +37,21 @@
                 </div>
                 <p class="no-found">Ningún mensaje fue encontrado</p>
                 <p class="ingresa-texto">Ingresa el texto que desees encriptar o desencriptar.</p>
+                
             </div>
-            <input class="btn-copiar" type="button" value="Copiar">
+            <div class="resultado">
+                <p id="pencrip" class="msgEncriptado"></p>
+                
+            </div>
+           
         </section>
+        
         
     </main>
     <script src="./js/app.js"></script>
+    <footer>
+        <div><p class="pie">&#169 Copyright, derechos reservados - Rodrigo Fernando Valle</p>
+        </footer></div>
+        
 </body>
 </html>
