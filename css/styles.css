@@ -180,7 +180,7 @@ footer{
         position: absolute;
         padding: 0;
         height: 90px;
-        top: 640px;
+        top: 670px;
     }
     .seccion-one{
         margin-left: 0;
@@ -190,7 +190,7 @@ footer{
     }
     textarea{
         width: 370px;
-        height: 175px;
+        height: 150px;
     }
     form{
         margin: 0;
@@ -202,17 +202,18 @@ footer{
    
     .seccion-two{
         position: absolute;
-        top: 405px;
+        top: 380px;
         max-width: 400px;
-        max-height: 175px;
+        max-height: 220px;
         margin-left: 0;
         padding: 0;
     
     }
+
     .btn-copiar{
         position: absolute;
         left: 0;
-        top: 590px;
+        top: 610px;
         margin-left: 0;
     }
     #msg{
