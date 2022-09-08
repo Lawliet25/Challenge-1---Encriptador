@@ -162,3 +162,69 @@ footer{
 .pie{
     margin: 35px auto;
 }
+
+@media screen and (max-width:480px){
+
+    .logo{
+        margin-left: 0;
+    }
+    main{
+        width: auto;
+    }
+    section{
+        display: block;
+    }
+    footer{
+        width: auto;
+        display: block;
+        position: absolute;
+        padding: 0;
+        height: 90px;
+        top: 640px;
+    }
+    .seccion-one{
+        margin-left: 0;
+        max-width: 400px;
+        max-height: 150px;
+       
+    }
+    textarea{
+        width: 370px;
+        height: 175px;
+    }
+    form{
+        margin: 0;
+    }
+    .botones{
+        display: block;
+        margin-left: 0;
+    }
+   
+    .seccion-two{
+        position: absolute;
+        top: 405px;
+        max-width: 400px;
+        max-height: 175px;
+        margin-left: 0;
+        padding: 0;
+    
+    }
+    .btn-copiar{
+        position: absolute;
+        left: 0;
+        top: 590px;
+        margin-left: 0;
+    }
+    #msg{
+        margin-top: 0;
+    }
+    .muñeco-lupa{
+        margin-top: 0;
+        margin-bottom: 0;
+    }
+    .no-found, .ingresa-texto{
+        font-size: 15px;
+        margin-top: 0;
+    }
+   
+}
