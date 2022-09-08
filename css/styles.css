@@ -178,19 +178,19 @@ footer{
         width: auto;
         display: block;
         position: absolute;
-        padding: 0;
-        height: 100px;
-        top: 680px;
+        padding: 25px;
+        height: 170px;
+        top: 750px;
     }
     .seccion-one{
         margin-left: 0;
         max-width: 400px;
-        max-height: 150px;
+        max-height: 170px;
        
     }
     textarea{
         width: 370px;
-        height: 150px;
+        height: 175px;
     }
     form{
         margin: 0;
@@ -202,7 +202,7 @@ footer{
    
     .seccion-two{
         position: absolute;
-        top: 380px;
+        top: 410px;
         max-width: 400px;
         max-height: 220px;
         margin-left: 0;
@@ -213,11 +213,15 @@ footer{
     .btn-copiar{
         position: absolute;
         left: 0;
-        top: 610px;
+        top: 650px;
         margin-left: 0;
     }
     #msg{
         margin-top: 0;
+    }
+    .msgEncriptado{
+        margin: 5px 0 0 15px;
+        text-align: left;
     }
     .muñeco-lupa{
         margin-top: 0;
